@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "title": "Python Basics: Variables and Data Types",
+      "description": "Introduction to Python programming fundamentals",
+      "subject": "Programming",
+      "difficulty": "Beginner",
+      "tags": ["python", "programming", "basics", "variables"],
+      "learningStyle": "visual",
+      "estimatedTime": 30,
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Machine Learning Algorithms",
+      "description": "Deep dive into neural networks and ensemble methods",
+      "subject": "Machine Learning", 
+      "difficulty": "Advanced",
+      "tags": ["ml", "ai", "neural-networks", "deep-learning"],
+      "learningStyle": "theoretical",
+      "estimatedTime": 120,
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "title": "Interactive Data Visualization with Matplotlib",
+      "description": "Hands-on guide to creating charts and graphs",
+      "subject": "Data Science",
+      "difficulty": "Intermediate",
+      "tags": ["python", "visualization", "matplotlib", "charts"],
+      "learningStyle": "kinesthetic", 
+      "estimatedTime": 45,
+      "url": "#"
+    },
+    {
+      "id": 4,
+      "title": "Statistics for Data Science",
+      "description": "Probability distributions and statistical testing", 
+      "subject": "Mathematics",
+      "difficulty": "Intermediate",
+      "tags": ["statistics", "probability", "math", "data-analysis"],
+      "learningStyle": "theoretical",
+      "estimatedTime": 60,
+      "url": "#"
+    },
+    {
+      "id": 5,
+      "title": "Web Development with Flask",
+      "description": "Build web applications using Python Flask",
+      "subject": "Web Development",
+      "difficulty": "Beginner", 
+      "tags": ["python", "web", "flask", "backend"],
+      "learningStyle": "kinesthetic",
+      "estimatedTime": 90,
+      "url": "#"
+    },
+    {
+      "id": 6, 
+      "title": "Natural Language Processing Fundamentals",
+      "description": "Text processing and sentiment analysis",
+      "subject": "Machine Learning",
+      "difficulty": "Intermediate",
+      "tags": ["nlp", "text-processing", "ai", "linguistics"],
+      "learningStyle": "visual",
+      "estimatedTime": 75,
+      "url": "#"
+    },
+    {
+      "id": 7,
+      "title": "Database Design and SQL", 
+      "description": "Relational database concepts and query optimization",
+      "subject": "Databases",
+      "difficulty": "Intermediate",
+      "tags": ["sql", "database", "design", "queries"],
+      "learningStyle": "theoretical",
+      "estimatedTime": 80,
+      "url": "#"
+    },
+    {
+      "id": 8,
+      "title": "Pandas for Data Manipulation",
+      "description": "Data cleaning and analysis with pandas library",
+      "subject": "Data Science", 
+      "difficulty": "Intermediate",
+      "tags": ["python", "pandas", "data-analysis", "cleaning"],
+      "learningStyle": "kinesthetic",
+      "estimatedTime": 50,
+      "url": "#"
+    }
+  ]
+}

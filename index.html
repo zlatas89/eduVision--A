@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVision AI - Personalized Learning Path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 EduVision AI</h1>
+            <p>Personalized Learning Path Powered by Machine Learning</p>
+        </div>
+        
+        <div class="content">
+            <form id="preferenceForm">
+                <div class="form-group">
+                    <label for="interests">Your Interests (comma-separated):</label>
+                    <input type="text" id="interests" 
+                           placeholder="python, machine learning, data science, web development" 
+                           required>
+                    <small>Enter topics you want to learn about</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="difficulty">Preferred Difficulty:</label>
+                    <select id="difficulty" required>
+                        <option value="Beginner">🚀 Beginner</option>
+                        <option value="Intermediate" selected>⚡ Intermediate</option>
+                        <option value="Advanced">🔥 Advanced</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="learningStyle">Learning Style:</label>
+                    <select id="learningStyle" required>
+                        <option value="visual">👁️ Visual (videos, diagrams)</option>
+                        <option value="kinesthetic">🛠️ Hands-on/Kinesthetic (practice)</option>
+                        <option value="theoretical">📚 Theoretical (reading, concepts)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="availableTime">Available Time (minutes per session):</label>
+                    <input type="number" id="availableTime" value="60" min="15" max="180" required>
+                    <small>How much time can you spend on one learning session?</small>
+                </div>
+                
+                <button type="submit" class="generate-btn">
+                    🎯 Generate Learning Path
+                </button>
+            </form>
+            
+            <div id="results" class="hidden"></div>
+        </div>
+    </div>
+
+    <script src="ml-recommender.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
